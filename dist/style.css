@@ -214,6 +214,7 @@
     .toggle__menu{
         display: block;
     }
+    
 
     .header .header__nav{
         position: absolute;
@@ -383,7 +384,7 @@
 }
 
 
-/* ----- ABOUTME ----- */
+/* ----- ABOUT ----- */
 
 .about{
     color: #ffffff;
@@ -471,30 +472,6 @@
     margin: 2rem    1rem;
 }
 
-
-/*---------REPEATABLE PATTERNS--------------*/
-.btn{
-    padding: 2.2rem 2.5rem;
-    border-radius: 5rem;
-    display: inline-block;
-    border: 1px solid transparent;
-}
-
-.bg--yellow{
-    background: #ffa700;
-    color: #ffffff;
-}
-
-.bg--yellow:hover{
-    background: #2b2b2b;
-    border: 1px solid #ffa700;
-}
-
-.bg--dark{
-    background: #2b2b2b;
-    color: #ffffff;
-}
-
 /* -------------------Contact----------------- */
 
 .contact{
@@ -519,4 +496,254 @@
     margin-top: 0;
     margin-bottom: 3rem;
     color: #000000;
+}
+
+/* ----------FOOTER ------------ */
+/*-----------FOOTER-----------------*/
+
+.footer{
+    background: #2b2b2b;
+    max-width: 100%;
+    height: 10rem;
+    text-align: right;
+}
+
+.footer h5{
+    color: #706f6f;
+    font-size: 1.5rem;
+
+}
+.footer .footer__wrapper h6{
+    color: #706f6f;
+    font-size: 1.5rem;
+}
+
+.footer .footer__wrapper ul li{
+    margin-right: 1rem;
+    color: #706f6f;
+    font-size: 2rem;
+}
+
+.footer .footer__wrapper ul li a{
+    color: #706f6f;
+    font-size: 2.5rem;
+}
+
+.footer .footer__wrapper ul{
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer__wrapper{
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .footer{
+        width: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer .footer__wrapper ul{
+        justify-content: center;
+    }
+
+    .footer .footer__wrapper ul li{
+        margin-left: 1rem;
+        color: #706f6f;
+        font-size: 2rem;
+    }
+
+    .footer h5{
+        display: block;
+        text-align: right ;
+        margin: 0 auto;
+    }
+    .footer .footer__wrapper{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer .footer__wrapper h6{
+        font-size: 1.5rem;
+        margin: 0 auto;
+        align-items: center;
+        color: #706f6f;
+    }
+}
+
+/* -----end footer---- */
+
+/*---------REPEATABLE PATTERNS--------------*/
+.btn{
+    padding: 2.2rem 2.5rem;
+    border-radius: 5rem;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+
+.bg--yellow{
+    background: #ffa700;
+    color: #ffffff;
+}
+
+.bg--yellow:hover{
+    background: #2b2b2b;
+    border: 1px solid #ffa700;
+}
+
+.bg--dark{
+    background: #2b2b2b;
+    color: #ffffff;
+}
+
+/* -----A B O U T     P A G E ------------------ */
+
+/* ----- ABOUTME----- */
+
+.aboutMe{
+    color: #ffffff;
+    padding: 8rem 0;
+    text-align: center;
+}
+
+.aboutMe .aboutMe__wrapper{
+    display: flex;
+    align-items: center;
+}
+.aboutMe .aboutMe__text h1{
+    color: #ffa700;
+    font-size: 8rem;
+    font-weight: 800;
+    line-height: 0;
+    margin-top: 4rem;
+    display: flex;
+}
+
+.aboutMe .aboutMe__wrapper img{
+    padding-left: 10rem;
+}
+.aboutMe .aboutMe__text p{
+    color: #2b2b2b;
+    text-align: justify;
+}
+
+.aboutMe .aboutMe__wrapper ul li{
+    margin-right: 1rem;
+    color: #706f6f;
+    font-size: 2rem;
+    display: flex;
+}
+
+.aboutMe .aboutMe__wrapper ul li a{
+    display: flex;
+    color: #ffa700;
+    font-size: 2.5rem;
+}
+
+.aboutMe .aboutMe__wrapper ul{
+    display: flex;
+}
+
+.aboutMe .aboutMe__chev i {
+    font-size: 6rem;
+    color: #ffa700;   
+    align-items: center;
+    justify-content: center;  
+}
+
+.aboutMe .aboutMe__chev i:hover {
+    font-size: 6rem;
+    color: #080808;
+}
+
+
+@media screen and (max-width: 500px) {
+    .aboutMe .aboutMe__wrapper{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .aboutMe .aboutMe__text{
+        display: block;
+        text-align: justify;
+        margin: 2rem;
+    }
+
+    .aboutMe .aboutMe__wrapper img{
+        padding-left: 0;
+}
+}
+
+/*  -------- ----------  Recent Projects --------------- */
+.recent{
+    background-color: #2b2b2b;
+    padding: 8rem 0; 
+}
+
+.recent .recent__wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 4rem;
+    padding-top: 8rem;
+    
+}
+
+.recent .recent__item{
+    background-color: #ffffff;
+    border-radius: 2rem;
+    
+}
+.recent .recent__title h2{
+    color: #ffa700;
+    font-size: 350%;
+    margin: 0 0 3rem 0;
+    line-height: 4.6rem;
+    
+}
+
+.recent .recent__item h4{
+    color: #ffa700;
+    margin:0 2rem;
+}
+
+.recent .recent__item img{
+    width: 100%;
+    border-radius: 2rem;
+    margin-bottom: 0;
+}
+
+.recent .recent__title p{
+    color: #ffffff;     
+    font-size: 200%;
+    margin-top: 0;
+}
+
+.recent .recent__wrapper .recent__text{
+    padding: 2rem 0;
+    color: #2b2b2b;
+    border-radius: 1rem;
+}
+
+.recent .recent__text p{
+    text-align: justify;
+    margin: 2rem 2rem;
+}
+
+@media screen and (max-width:500px){
+
+    .recent .recent__wrapper{
+        display: block;
+    }
+    .recent .recent__item{
+        text-align: center;
+        margin: 5rem 6rem;
+    }
+
+    .recent .recent__title{
+        text-align: center;
+    }
 }
