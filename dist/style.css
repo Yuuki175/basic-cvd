@@ -554,10 +554,10 @@
     font-size: 2.5rem;
 }
 
-.footer .footer__wrapper ul li a:hover{
+/* .footer .footer__wrapper ul li a:hover{
     color: hsl(0, 0%, 60%);
     font-size: 2.5rem;
-}
+} */
 
 .footer .footer__wrapper ul{
     display: flex;
